@@ -43,7 +43,11 @@
     "@babel/core": "^7.20.0",
     "@types/aes-js": "^3.1.4",
     "@types/react": "~18.2.45",
+    "patch-package": "^8.0.0",
     "typescript": "~5.3.3"
   },
-  "private": true
+  "private": true,
+  "resolutions": {
+    "@react-native/gradle-plugin": "0.74.3"
+  }
 }
