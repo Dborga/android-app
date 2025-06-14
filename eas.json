@@ -4,24 +4,24 @@
     "appVersionSource": "remote"
   },
   "build": {
+    "production": {
+      "autoIncrement": true,
+      "cache": {
+        "disabled": true
+      }
+    },
     "development": {
       "developmentClient": true,
       "distribution": "internal"
     },
     "preview": {
       "distribution": "internal"
-    },
-    "production": {
-      "autoIncrement": true,
-      "cache": {
-        "key": "v1-node-cache",
-        "paths": ["node_modules"]
-      }
     }
   },
   "submit": {
     "production": {}
   }
 }
+
 
 
