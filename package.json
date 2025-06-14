@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "expo-router/entry",
   "scripts": {
-    "eas-build-pre-install": "npm install @expo/metro-config@0.20.4 @expo/cli@0.12.2",
+    "eas-build-pre-install": "npm install @expo/metro-config@0.20.4",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
