@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "expo-router/entry",
   "scripts": {
-    "eas-build-pre-install": "npm install @expo/metro-config@0.19.5 @react-native/gradle-plugin@0.74.3",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
